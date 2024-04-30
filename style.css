@@ -1,16 +1,16 @@
 @font-face {
     font-family: k2d;
-    src: url(/font/K2D-Bold.ttf);
+    src: url(./font/K2D-Bold.ttf);
 }
 
 @font-face {
     font-family: k2d medium;
-    src: url(/font/K2D-Medium.ttf);
+    src: url(./font/K2D-Medium.ttf);
 }
 
 @font-face {
     font-family: kaushan script;
-    src: url(/font/KaushanScript-Regular.ttf);
+    src: url(./font/KaushanScript-Regular.ttf);
 }
 
 * {
