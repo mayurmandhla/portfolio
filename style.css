@@ -969,9 +969,13 @@ form{
     color: white;
     margin-right: 5%;
     font-family: k2d;
-    font-size: 1.5vw;
+    font-size: 1.6vw;
 }
 
+.skil{
+   margin: 11.8% 0%;
+}
+    
 #social-cntct{
     height: 5%;
     margin-top: 5vh;
