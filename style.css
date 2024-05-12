@@ -150,6 +150,7 @@ form{
 
 #message {
     grid-column: 1 / span 2;
+    grid-row: 2 / 4;
     resize: none;
     font-size: 2.3vh;
     padding: 2vh;

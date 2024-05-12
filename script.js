@@ -108,46 +108,6 @@ function showMenu(){
     nav2.style.display ="initial"
 }
 
-        // massage form
-
-        const form = document.querySelector("form");
-const Fname = document.getElementById("name");
-const email = document.getElementById("email");
-const phone = document.getElementById("phone");
-const message = document.getElementById("message");
-
-
-function sendMsg(){
-    const bodyMessage = `Name : ${Fname.value}  <br> email : ${email.value} <br> phone : ${phone.value} <br> message : ${message.value}`;
-    const subject = document.getElementById("subject");
-    Email.send({
-        SecureToken : "1be258a9-d5e2-4a97-9f8e-f85050a0829e",
-        To : 'portfoliomayur716@gmail.com',
-        From : "portfoliomayur716@gmail.com",
-        Subject : subject.value,
-        Body : bodyMessage
-    }).then(
-      message => {
-        if(message == "OK") {
-          Swal.fire({
-            title: "success",
-            text: "Message sent successfully!",
-            icon: "success"
-          });
-        }
-      }
-      
-    );
-}
-
-form.addEventListener("submit", (e) => {
-     e.preventDefault();
-
-     sendMsg();
-
-     form.reset();
-     return false;
-});
 
 var msgForm = document.getElementById("msg-form")
 var getinbtn = document.getElementById("get-i-t")

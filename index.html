@@ -62,15 +62,14 @@
                 </div>
 
             </section>
-            <form id="msg-form">
+            <form action="https://api.web3forms.com/submit" method="POST" id="msg-form">
                 <h3 id="formhead-text">get in touch</h3>
+                <input type="hidden" name="access_key" value="af9f89d0-ab69-4445-93d5-762b99c1a235">
                 <i onclick="hideMform()" id="close" class="ri-close-line"></i>
                 <div id="ipt">
-                    <input class="grid-i" type="text" id="name" placeholder="your name" required>
-                    <input class="grid-i" type="email" id="email" placeholder="email Id" required>
-                    <input class="grid-i" type="text" id="phone" placeholder="phone no.(optional)">
-                    <input class="grid-i" type="text" id="subject" placeholder="subject" required>
-                    <textarea class="grid-i" id="message" rows="5" placeholder="type commant or message" required></textarea>
+                    <input class="grid-i" type="text" name="name" id="name" placeholder="your name" required>
+                    <input class="grid-i" type="email" name="email" id="email" placeholder="email Id" required>
+                    <textarea class="grid-i" name="message" id="message" rows="5" placeholder="type commant or message" required></textarea>
                 </div>
                 <button class="grid-i" id="s-btn" type="submit">send</button>
             </form>
